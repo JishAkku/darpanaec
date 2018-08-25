@@ -1,0 +1,32 @@
+.lay1
+{
+	background: url("img/load1.png");
+	z-index: 1;
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 40%;
+	width: 40%;
+	animation-name: example;
+    animation-duration: 0s;
+    animation-iteration-count: infinite;
+}
+.lay2
+{
+	background: url("img/load2.png");
+	z-index: 1;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 6.8vh;
+	width: 6.8vw;
+	position: fixed;
+	animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@-webkit-keyframes example {
+    0%   {transform: rotate(0deg)}
+	100% {transform: rotate(300deg)}
+}
